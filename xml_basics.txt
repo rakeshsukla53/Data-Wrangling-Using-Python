@@ -1,0 +1,8 @@
+XML syntax:
+
+Elements are the basic building blocks of XML.
+XML is document oriented and data oriented with only tags
+XML is parsed into XML tree ...Sabse phele root node access hona chayeah then we can go through the childrens
+Root ko access karo then iterate over children elements
+title kaise extract karenge
+Understand how the elements are arranged in the data structure

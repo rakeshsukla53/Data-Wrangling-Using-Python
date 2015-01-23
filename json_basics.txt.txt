@@ -1,0 +1,69 @@
+__author__ = 'rsukla'
+
+This JSON syntax defines an employees object, with an array of 3 employee records (objects):
+JSON Example
+{"employees":[
+    {"firstName":"John", "lastName":"Doe"},
+    {"firstName":"Anna", "lastName":"Smith"},
+    {"firstName":"Peter", "lastName":"Jones"}
+]}
+
+This XML syntax also defines an employees object with 3 employee records:
+XML Example
+<employees>
+    <employee>
+        <firstName>John</firstName> <lastName>Doe</lastName>
+    </employee>
+    <employee>
+        <firstName>Anna</firstName> <lastName>Smith</lastName>
+    </employee>
+    <employee>
+        <firstName>Peter</firstName> <lastName>Jones</lastName>
+    </employee>
+</employees>
+
+What is JSON?
+
+    JSON stands for JavaScript Object Notation
+    JSON is lightweight data interchange format
+    JSON is language independent *
+    JSON is "self-describing" and easy to understand
+
+
+JSON object are basically python dictionary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+
+what do you mean by unicode format?
+
+See http://unicode.org/ for far more than you probably want to know.
+
+Unicode is a standard which defines the internal text coding system in almost all current operating systems used
+in computers, whether Windows, Macintosh, Linux, Solaris Unix or whatever, because it can handle characters for almost
+ all modern languages and even some ancient languages at the same time, as long as the user has fonts for the particular
+  language installed.
+
+It is the most commonly used character code on the Internet.
+
+(See http://www.alanwood.net/unicode/ for various free or low-cost Unicode fonts and Unicode resources.)
+
+You don’t say what application you are using to write your article. But if it comes up with a message warning you that
+ you need to save in Unicode, then it is probably an editor or word processor that can handle Unicode, but which you
+  have set to save in an older character set.
+
+Possibly, when you saved it anyhow, it did save in Unicode format. Or it may have saved in the older format , in which
+ case some of your characters that cannot be handled in that older format (dashes or curly quotation marks perhaps) will
+  have been converted, probably to question marks.
+
+I suggest you set your application to save in a Unicode-compatible format. Most Word processors (MS Word,
+OpenOffice Writer and so forth already save in a Unicode-compatible format.) But if you save as text, at least
+under Windows, the application will attempt to save in your standard Windows 8-bit character set, not in Unicode.
+You need to save as “Text Encoded” or “Encoded Text” which will allow you to select what coding you wish to save your
+file in.
+
+Select “Unicode” or “UTF-16” or “UTF-8” or something similar.
+
